@@ -8,6 +8,7 @@ import AnimatedCounter from './animations/AnimatedCounter'
 import AnimatedText from './animations/AnimatedText'
 import ScrollAnimationWrapper from './animations/ScrollAnimationWrapper'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
+import { getImagePath } from '@/utils/imagePath'
 
 const About: React.FC = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -140,7 +141,7 @@ const About: React.FC = () => {
               
               {/* Main image */}
               <Image
-                src="/CCG.png"
+                src={getImagePath("/CCG.png")}
                 alt="C-C-G Plomberie - Artisan professionnel"
                 fill
                 className="object-cover"
