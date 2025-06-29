@@ -1,0 +1,41 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shape -->
+  <g id="logo-group">
+    <!-- Hexagon shape for modern tech feel -->
+    <path d="M 25 5 L 45 5 L 55 20 L 45 35 L 25 35 L 15 20 Z" fill="#22C55E" opacity="0.1"/>
+    
+    <!-- Water drop icon -->
+    <g transform="translate(30, 12)">
+      <path d="M10 0C10 0 0 10 0 15C0 20 4.5 24 10 24C15.5 24 20 20 20 15C20 10 10 0 10 0Z" fill="#22C55E"/>
+      <path d="M10 3C10 3 3 11 3 15C3 18.5 6 21 10 21C14 21 17 18.5 17 15C17 11 10 3 10 3Z" fill="#1DB954"/>
+      <!-- Inner highlight -->
+      <circle cx="7" cy="14" r="2" fill="white" opacity="0.6"/>
+    </g>
+    
+    <!-- Company name -->
+    <g id="company-name">
+      <!-- C -->
+      <path d="M 70 20 Q 70 10, 80 10 L 85 10 L 85 14 L 80 14 Q 74 14, 74 20 L 74 25 Q 74 31, 80 31 L 85 31 L 85 35 L 80 35 Q 70 35, 70 25 Z" fill="#111827" stroke="#111827" stroke-width="0.5"/>
+      
+      <!-- Hyphen -->
+      <rect x="90" y="22" width="8" height="3" fill="#22C55E"/>
+      
+      <!-- C -->
+      <path d="M 103 20 Q 103 10, 113 10 L 118 10 L 118 14 L 113 14 Q 107 14, 107 20 L 107 25 Q 107 31, 113 31 L 118 31 L 118 35 L 113 35 Q 103 35, 103 25 Z" fill="#111827" stroke="#111827" stroke-width="0.5"/>
+      
+      <!-- Hyphen -->
+      <rect x="123" y="22" width="8" height="3" fill="#22C55E"/>
+      
+      <!-- G -->
+      <path d="M 136 20 Q 136 10, 146 10 L 151 10 L 151 14 L 146 14 Q 140 14, 140 20 L 140 25 Q 140 31, 146 31 L 150 31 L 150 23 L 146 23 L 146 19 L 154 19 L 154 35 L 146 35 Q 136 35, 136 25 Z" fill="#111827" stroke="#111827" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Tagline -->
+    <text x="70" y="48" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" letter-spacing="1">
+      PLOMBERIE • CHAUFFAGE • CLIMATISATION
+    </text>
+    
+    <!-- Professional accent line -->
+    <rect x="70" y="52" width="110" height="1" fill="#22C55E" opacity="0.5"/>
+  </g>
+</svg>
